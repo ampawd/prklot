@@ -9,10 +9,8 @@ glew, glfw, glm
 ###building on debian based distros (debian, ubuntu, mint)
 asuming you have already installed all dependencies mentioned above, also should make sure that your OpenGL version is 4.x or best 4.5
 
-if this is all is true then:
+if this is all true, then:
 
-clone the repo
-cd into the repo
-and simply type `make`
-
-and executable will reside in a build directory
+1) clone (or download) the repo
+2) cd into the repo
+3) Simply type `make` and executable will reside in a build directory
