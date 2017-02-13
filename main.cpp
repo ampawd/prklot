@@ -25,7 +25,7 @@
 
 #define COUT std::cout <<
 
-namespace parking_task
+namespace prklot
 {
 	GLuint lotShaderProgram, carShaderProgram, cardndShaderProgram;
 	GLuint projectionLoc, projectionLocCar, projectionLocCardnd;
@@ -274,7 +274,7 @@ namespace parking_task
 	}
 };
 
-using namespace parking_task;
+using namespace prklot;
 
 int main(int argc, char *argv[])
 {
@@ -365,9 +365,7 @@ int main(int argc, char *argv[])
 	parkingLot.initPositions(slotW, slotH);
 	parkingLot.load();
 	visibleAreaPositions = parkingLot.getVisibeAreaPositions();
-	numberOfCars = (visibleAreaPositions.size() * percents / 100);
-
-	 
+	numberOfCars = (visibleAreaPositions.size() * percents / 100);	 
 
 	while (cars.size() < numberOfCars)
 	{

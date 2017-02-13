@@ -1,6 +1,6 @@
 #include "parking_car.h"
 
-using namespace parking_task;
+using namespace prklot;
 
 ParkingCar::ParkingCar(const glm::vec3& leftBottom, const glm::vec3& carFillColor, int width, int height, int index) :
 	leftBottom(leftBottom),

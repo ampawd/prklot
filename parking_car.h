@@ -11,7 +11,7 @@
 #include <iostream>
 #include <vector>
 
-namespace parking_task
+namespace prklot
 {
 #define POSITION_LOCATION 0
 

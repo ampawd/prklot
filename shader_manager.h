@@ -3,7 +3,7 @@
 
 #include "shader.h"
 
-namespace parking_task {
+namespace prklot {
 	class ShaderManager
 	{
 	public:

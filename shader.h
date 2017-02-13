@@ -9,7 +9,7 @@
 
 #include <GL/glew.h>
 
-namespace parking_task {
+namespace prklot {
 	class Shader
 	{
 		public:

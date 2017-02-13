@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-using namespace parking_task;
+using namespace prklot;
 
 ParkingLot::ParkingLot() : loaded(false)
 {}

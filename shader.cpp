@@ -1,6 +1,6 @@
 #include "shader.h"
 
-using namespace parking_task;
+using namespace prklot;
 
 Shader::Shader(GLint _shaderType, const std::string& filepath): type(_shaderType)
 {

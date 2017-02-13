@@ -1,6 +1,6 @@
 #include "shader_manager.h"
 
-using namespace parking_task;
+using namespace prklot;
 
 ShaderManager::ShaderManager() : currentShaderProgram(0)
 {
