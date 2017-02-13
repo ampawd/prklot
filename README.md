@@ -11,6 +11,6 @@ asuming you have already installed all dependencies mentioned above, also should
 
 if this is all true, then:
 
-1) clone (or download) the repo
-2) cd into the repo
-3) Simply type `make` and executable will reside in a build directory
+1. clone (or download) the repo
+2. cd into the repo
+3. Simply type `make` and executable will reside in a build directory
