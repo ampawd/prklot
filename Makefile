@@ -33,26 +33,26 @@ LDFLAGS		= -Wall
 LIBS		= -lGL -lGLEW -lglfw
 
 
-$(PROGNAME): $(OBJS)
+$(BUILDIR)/$(PROGNAME): $(OBJS)
 	$(CXX) $(BUILDIR)/*.o $(LDFLAGS) $(LIBS) -o $(BUILDIR)/$(PROGNAME) 
 
 # $(OBJS): 
 # 	$(CXX) $(CXXFLAGS) $(INCDIR) $(SRC) -o $(patsubst %, $(BUILDIR)/%, $(OBJS))
 
 
-main.o: 
+main.o: main.cpp
 	$(CXX) $(CXXFLAGS) $(INCDIR) main.cpp -o $(BUILDIR)/main.o
 
-parking_car.o: 
+parking_car.o: parking_car.cpp
 	$(CXX) $(CXXFLAGS) $(INCDIR) parking_car.cpp -o $(BUILDIR)/parking_car.o
 
-parking_lot.o: 
+parking_lot.o: parking_lot.cpp
 	$(CXX) $(CXXFLAGS) $(INCDIR) parking_lot.cpp -o $(BUILDIR)/parking_lot.o
 
-shader.o: 
+shader.o: shader.cpp
 	$(CXX) $(CXXFLAGS) $(INCDIR) shader.cpp -o $(BUILDIR)/shader.o
 
-shader_manager.o: 
+shader_manager.o: shader_manager.cpp
 	$(CXX) $(CXXFLAGS) $(INCDIR) shader_manager.cpp -o $(BUILDIR)/shader_manager.o
 
 
