@@ -1,9 +1,10 @@
 #Prklot
 
-Dran 'n' drop and a simple map like functionality written in OpenGL 4.x
+Hardware accelerated Dran 'n' drop and a simple map like functionality (zooming, shifting) written using modern OpenGL 4.x API from scratch
+
 
 ##Aditional dependencies
-glew, glfw
+glew, glfw, glm
 
 ###building on debian based distros (debian, ubuntu, mint)
 asuming you have already installed all dependencies mentioned above, also should make sure that your OpenGL version is 4.x or best 4.5
