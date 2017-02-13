@@ -1,0 +1,9 @@
+#version 330 core
+
+out vec4 color;
+
+uniform vec3 carFillColor;
+
+void main() {
+    color = vec4(carFillColor, 1.0f);
+}
